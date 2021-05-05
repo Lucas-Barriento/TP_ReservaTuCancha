@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1620180854 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\main.cpp
+	<iostream>
+	"include/Menu.h"
+	"include/rlutil.h"
+
+1620181695 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\menu.h
+	"rlutil.h"
+
+1585439252 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1620176138 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\src\fecha.cpp
+	<iostream>
+	"../include/Fecha.h"
+
+1620176083 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\fecha.h
+
+1620181082 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\src\persona.cpp
+	<iostream>
+	"../include/Persona.h"
+
+1620181105 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\persona.h
+
