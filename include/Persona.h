@@ -1,14 +1,14 @@
 #ifndef PERSONA_H_INCLUDED
 #define PERSONA_H_INCLUDED
-
+#include "Fecha.h"
 using namespace std;
 class Persona{
 protected:
     char Nombre[15], Apellido[15], Email[30],Contrasenia[15];
-    int Dni;
-    ///Nacimiento
+    int Dni, ID;
+    Fecha Nacimiento;
 public:
-    void cargar();
+    bool cargar();
     void mostrar();
 };
 

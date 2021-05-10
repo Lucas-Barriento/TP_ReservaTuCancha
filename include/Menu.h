@@ -1,6 +1,8 @@
 #ifndef MENU_H_INCLUDED
 #define MENU_H_INCLUDED
 #include"rlutil.h"
+#include"Persona.h"
+#include<cstdio>
 using namespace std;
 void menuAdministrador();
 void menuCliente();
@@ -14,14 +16,14 @@ void menuPrincipal(){
     while(salir==false){
         system("cls");
         cout << "BIENVENIDOS A RESERVA TU CANCHA" << endl;
-        cout << "1 - ADMINISTRADOR" << endl;
-        cout << "2 - CLIENTE" << endl;
-        cout << "3 - CANCHAS" << endl;
-        cout << "4 - EXPORTAR" << endl;
-        cout << "5 - INFORMES" <<endl;
-        cout << "6 - CONFIGURACION" << endl;
-        cout << "------------------" << endl;
-        cout << "0 - SALIR" << endl;
+        cout << "1 - ADMINISTRADOR              " << endl;
+        cout << "2 - CLIENTE                    " << endl;
+        cout << "3 - CANCHAS                    " << endl;
+        cout << "4 - EXPORTAR                   " << endl;
+        cout << "5 - INFORMES                   " << endl;
+        cout << "6 - CONFIGURACION              " << endl;
+        cout << "-------------------------------" << endl;
+        cout << "0 - SALIR                      " << endl;
         int pos;
         cout << endl << "> ";
         cin >> pos;
@@ -58,28 +60,64 @@ void menuPrincipal(){
 }
 
 void menuAdministrador(){
-
-}
-void menuCliente(){
-
     while(true){
         system ("cls");
-        cout << "1 - INICIAR SESION " << endl;
-        cout << "2 - REGISTRARSE " << endl;
-        cout << "3 - MODIFICAR CLIENTE " << endl;
-        cout << "4 - LISTAR CANCHAS " << endl;
-        cout << "------------------ " << endl;
-        cout << "0 - VOLVER" << endl;
+        cout << "1 - INICIAR SESION             " << endl;
+        cout << "2 - MODIFICAR CLIENTE          " << endl;
+        cout << "3 - LISTAR CANCHAS             " << endl;
+        cout << "4 - MODIFICAR PRECIO DE CANCHA " <<endl;
+        cout << "------------------------------ " << endl;
+        cout << "0 - VOLVER                     "<< endl;
         int pos;
         cout << endl << "> ";
-        cin >> pos;
+         cin >> pos;
 
         switch(pos){
         case 1:
+            ///iniciarSesion();
             break;
         case 2:
+            ///modificarCliente();
             break;
         case 3:
+            ///listarCanchas();
+            break;
+        case 4:
+            ///modificarPrecioCancha();
+        case 0:
+            return;
+            break;
+        default:
+            cout<< "Opcion incorrecta"<<endl;
+            break;
+        }
+        cin.ignore();
+
+    }
+}
+void menuCliente(){
+Persona cl;
+    while(true){
+        system ("cls");
+        cout << "1 - INICIAR SESION    " << endl;
+        cout << "2 - REGISTRARSE       " << endl;
+        cout << "3 - MODIFICAR CLIENTE " << endl;
+        cout << "4 - LISTAR CANCHAS    " << endl;
+        cout << "----------------------" << endl;
+        cout << "0 - VOLVER            " << endl;
+        int pos;
+        cout << endl << "> ";
+         cin >> pos;
+
+        switch(pos){
+        case 1:
+            ///iniciarSesion();
+            break;
+        case 2:
+            cl.cargar();
+            break;
+        case 3:
+            ///modificarCliente();
             break;
         case 0:
             return;
@@ -96,21 +134,22 @@ void menuCliente(){
 void menuCanchas() {
     while (true) {
             system("cls");
-        cout << "1 - MOSTRAR CANCHAS" << endl;
-        cout << "2 - LISTAR PRECIOS" << endl;
+        cout << "1 - MOSTRAR CANCHAS       " << endl;
+        cout << "2 - LISTAR PRECIOS        " << endl;
         cout << "3 - LISTAR X TIPO DE CAMPO" << endl;
-        cout << "4 - LISTAR X ZONA " << endl;
-        cout << "------------------" << endl;
-        cout << "0 - VOLVER" << endl;
+        cout << "4 - LISTAR X ZONA         " << endl;
+        cout << "--------------------------" << endl;
+        cout << "0 - VOLVER                " << endl;
         int pos;
         cout << endl << "> ";
         cin >> pos;
 
         switch (pos) {
         case 1:
-
+            ///mostrarCanchas();
             break;
         case 2:
+            ///listarPrecios();
             break;
         case 3:
             break;

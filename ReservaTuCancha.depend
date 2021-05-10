@@ -1,11 +1,15 @@
 # depslib dependency file v1.0
-1620180854 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\main.cpp
+1620610196 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\main.cpp
 	<iostream>
+	<ctime>
+	<cstring>
 	"include/Menu.h"
 	"include/rlutil.h"
 
-1620181695 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\menu.h
+1620617292 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\menu.h
 	"rlutil.h"
+	"Persona.h"
+	<cstdio>
 
 1585439252 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\rlutil.h
 	<iostream>
@@ -25,11 +29,19 @@
 	<iostream>
 	"../include/Fecha.h"
 
-1620176083 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\fecha.h
+1620606403 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\fecha.h
 
-1620181082 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\src\persona.cpp
+1620616158 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\src\persona.cpp
 	<iostream>
 	"../include/Persona.h"
+	"../include/Validar.h"
+	<cstdio>
 
-1620181105 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\persona.h
+1620614411 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\persona.h
+	"Fecha.h"
+
+1620612403 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\validar.h
+	"Persona.h"
+	<cstring>
+	<ctime>
 

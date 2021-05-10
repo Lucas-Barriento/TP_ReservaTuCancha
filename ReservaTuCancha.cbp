@@ -33,8 +33,10 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Fecha.h" />
+		<Unit filename="include/Funciones.h" />
 		<Unit filename="include/Menu.h" />
 		<Unit filename="include/Persona.h" />
+		<Unit filename="include/Validar.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Fecha.cpp" />
 		<Unit filename="src/Persona.cpp" />
