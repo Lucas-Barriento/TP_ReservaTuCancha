@@ -5,12 +5,11 @@
 using namespace std;
 int cantID();
 
-bool Persona::cargar()
-{
+bool Persona::cargar(){
     cin.ignore();
     cout<< "ID generado automaticamente: ";
     ID=cantID()+1;/// cantID devuelve el num de ID cargados y le suma 1
-    cout<< ID<<endl;
+    cout<< ID <<endl;
     cout<< "Nombre: "<<endl;
     cin.getline(Nombre,15);
     if(strcmp(Nombre,"\0")==0)
@@ -43,6 +42,7 @@ bool Persona::cargar()
     {
         cout<< "Fecha invalida"<<endl;
     }
+    Administrador=true;
     return true;
 }
 
@@ -64,7 +64,7 @@ int cantID()
 {
     FILE*p;
     int bytes;
-    p=fopen("CantID.dat","ab");
+    p=fopen("Clientes.dat","ab");
     if(p==NULL)
     {
         return -1;
@@ -76,3 +76,20 @@ int cantID()
 
     return cantidad;
 }
+bool Persona::guardarEnDisco(){
+    FILE*p;
+    p=fopen("Clientes.dat","ab");
+    if(p==NULL)
+    {
+        cout<< "No se pudo abrir el archivo"<<endl;
+        return false;
+    }
+    fwrite(this,sizeof(Persona),1,p);
+    fclose(p);
+
+    return true;
+}
+
+int Persona::getID(){ return ID; }
+
+const char*Persona::getContrasenia(){return Contrasenia; }

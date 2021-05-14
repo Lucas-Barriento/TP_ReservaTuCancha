@@ -2,26 +2,24 @@
 #define MENU_H_INCLUDED
 #include"rlutil.h"
 #include"Persona.h"
-#include<cstdio>
+#include"Cliente.h"
+#include <cstdlib>
+#include <cstdio>
 using namespace std;
 void menuAdministrador();
-void menuCliente();
-void menuCanchas();
 void menuExportar();
 void menuInformes();
 void menuConfiguracion();
 
 void menuPrincipal(){
+    Persona p;
+    Cliente cl;
     bool salir=false;
     while(salir==false){
         system("cls");
         cout << "BIENVENIDOS A RESERVA TU CANCHA" << endl;
-        cout << "1 - ADMINISTRADOR              " << endl;
-        cout << "2 - CLIENTE                    " << endl;
-        cout << "3 - CANCHAS                    " << endl;
-        cout << "4 - EXPORTAR                   " << endl;
-        cout << "5 - INFORMES                   " << endl;
-        cout << "6 - CONFIGURACION              " << endl;
+        cout << "1 - INICIAR SESION             " << endl;
+        cout << "2 - REGISTRARSE                " << endl;
         cout << "-------------------------------" << endl;
         cout << "0 - SALIR                      " << endl;
         int pos;
@@ -30,22 +28,14 @@ void menuPrincipal(){
         cin.ignore();
         switch(pos){
         case 1:
-            menuAdministrador();
+            cl.iniciarSesion();
             break;
         case 2:
-            menuCliente();
-            break;
-        case 3:
-            menuCanchas();
-            break;
-        case 4:
-            menuExportar();
-            break;
-        case 5:
-            menuInformes();
-            break;
-        case 6:
-            menuConfiguracion();
+            if(p.cargar()==true){
+                if(p.guardarEnDisco()==true){
+                    cout<< "Guardado."<<endl;
+                }
+            }
             break;
         case 0:
             salir=true;
@@ -59,66 +49,55 @@ void menuPrincipal(){
     }
 }
 
+
 void menuAdministrador(){
     while(true){
         system ("cls");
-        cout << "1 - INICIAR SESION             " << endl;
-        cout << "2 - MODIFICAR CLIENTE          " << endl;
-        cout << "3 - LISTAR CANCHAS             " << endl;
-        cout << "4 - MODIFICAR PRECIO DE CANCHA " <<endl;
-        cout << "------------------------------ " << endl;
-        cout << "0 - VOLVER                     "<< endl;
+        cout << "1  - GENERAR RESERVA NUEVA             " << endl;
+        cout << "2  - MODIFICAR RESERVA                 " << endl;
+        cout << "3  - LISTAR CANCHAS                    " << endl;
+        cout << "4  - MODIFICAR CLIENTE                 " << endl;
+        cout << "5  - MODIFICAR PRECIO DE RESERVA       " << endl;
+        cout << "6  - BUSCAR CLIENTE POR ID             " << endl;
+        cout << "7  - INFORMES                          " << endl;
+        cout << "8  - BUSCAR CANCHA DISPONIBLE POR FECHA" << endl;
+        cout << "9  - EXPORTAR                          " << endl;
+        cout << "10 - BACK UP                           " << endl;
+        cout << "---------------------------------------" << endl;
+        cout << "0 - VOLVER                             " << endl;
         int pos;
         cout << endl << "> ";
          cin >> pos;
 
         switch(pos){
         case 1:
-            ///iniciarSesion();
+            ///nuevaReserva();
             break;
         case 2:
-            ///modificarCliente();
+            ///modificarReserva();
             break;
         case 3:
             ///listarCanchas();
             break;
         case 4:
-            ///modificarPrecioCancha();
-        case 0:
-            return;
-            break;
-        default:
-            cout<< "Opcion incorrecta"<<endl;
-            break;
-        }
-        cin.ignore();
-
-    }
-}
-void menuCliente(){
-Persona cl;
-    while(true){
-        system ("cls");
-        cout << "1 - INICIAR SESION    " << endl;
-        cout << "2 - REGISTRARSE       " << endl;
-        cout << "3 - MODIFICAR CLIENTE " << endl;
-        cout << "4 - LISTAR CANCHAS    " << endl;
-        cout << "----------------------" << endl;
-        cout << "0 - VOLVER            " << endl;
-        int pos;
-        cout << endl << "> ";
-         cin >> pos;
-
-        switch(pos){
-        case 1:
-            ///iniciarSesion();
-            break;
-        case 2:
-            cl.cargar();
-            break;
-        case 3:
             ///modificarCliente();
+        case 5:
+            ///modificarPrecioReserva();
             break;
+        case 6:
+            ///buscarCliente();
+            break;
+        case 7:
+            menuInformes();
+            break;
+        case 8:
+            ///buscarCanchaDisponibleXFecha();
+            break;
+        case 9:
+            ///exportar();
+            break;
+        case 10:
+            ///backUp();
         case 0:
             return;
             break;
@@ -131,40 +110,6 @@ Persona cl;
     }
 }
 
-void menuCanchas() {
-    while (true) {
-            system("cls");
-        cout << "1 - MOSTRAR CANCHAS       " << endl;
-        cout << "2 - LISTAR PRECIOS        " << endl;
-        cout << "3 - LISTAR X TIPO DE CAMPO" << endl;
-        cout << "4 - LISTAR X ZONA         " << endl;
-        cout << "--------------------------" << endl;
-        cout << "0 - VOLVER                " << endl;
-        int pos;
-        cout << endl << "> ";
-        cin >> pos;
-
-        switch (pos) {
-        case 1:
-            ///mostrarCanchas();
-            break;
-        case 2:
-            ///listarPrecios();
-            break;
-        case 3:
-            break;
-        case 4:
-            break;
-        case 0:
-                return;
-            break;
-        default:
-            cout<< "Opcion incorrecta"<<endl;
-            break;
-        }
-        cin.ignore();
-    }
-}
 void menuExportar(){
     while (true) {
         system("cls");
@@ -197,7 +142,7 @@ while(true){
     system("cls");
       cout<<"1 - LISTA DE CLIENTES ORDENADOS POR NOMBRE" << endl;
       cout<<"2 - LISTA DE CANCHAS DISPONIBLES" <<endl;
-      cout<<"3 - LISTA DE RESERVAS DE CANCHAS" <<endl;
+      cout<<"3 - LISTA DE RESERVAS DE CANCHAS ACTIVAS" <<endl;
       cout<<"4 - BUSCAR RESERVA POR ID" <<endl;
       cout<<"5 - CONSULTAR DISPONIBILIDAD EN CASO DE MODIFICACION DE RESERVA"<< endl;
       cout<<"-------------------------------------------------------------" << endl;
@@ -253,25 +198,6 @@ void menuConfiguracion(){
         cin.ignore();
 }
 }
-/*
-class Menu{     /// entidades funaciones locales ///atributos
-private:
-    int recuadro();
-    char titulo_Principal[40];
-    char titulo_1[20];
-    char titulo_2[20];
-    char titulo_3[20];
-    int imagen();
-public:
-    /// funciones globales son las que que antes era funciones solamentes//comportamientos
-    void mostrar(char );
-    void guardar_seleccion(char );/// metodo que permite seleccionar
 
-};
-Menu::mostrar(char){
-
-cout<<"ädios";
-
-}
-*/
 #endif // MENU_H_INCLUDED
+

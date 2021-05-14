@@ -1,14 +1,16 @@
 # depslib dependency file v1.0
-1620610196 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\main.cpp
+1620946098 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\main.cpp
 	<iostream>
 	<ctime>
 	<cstring>
 	"include/Menu.h"
 	"include/rlutil.h"
 
-1620617292 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\menu.h
+1620957998 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\menu.h
 	"rlutil.h"
 	"Persona.h"
+	"Cliente.h"
+	<cstdlib>
 	<cstdio>
 
 1585439252 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\rlutil.h
@@ -31,17 +33,32 @@
 
 1620606403 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\fecha.h
 
-1620616158 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\src\persona.cpp
+1620960091 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\src\persona.cpp
 	<iostream>
 	"../include/Persona.h"
 	"../include/Validar.h"
 	<cstdio>
 
-1620614411 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\persona.h
+1620960090 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\persona.h
 	"Fecha.h"
 
-1620612403 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\validar.h
+1620617938 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\validar.h
 	"Persona.h"
 	<cstring>
 	<ctime>
+
+1620961177 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\cliente.h
+	"Persona.h"
+
+1620619130 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\src\cancha.cpp
+	"Cancha.h"
+
+1620953565 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\include\cancha.h
+
+1620961620 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\reserva tu cancha\src\cliente.cpp
+	<iostream>
+	"Cliente.h"
+	<cstdlib>
+	<cstdio>
+	<cstring>
 
