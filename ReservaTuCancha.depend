@@ -62,3 +62,539 @@
 	<cstdio>
 	<cstring>
 
+1622505447 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main\main.cpp
+	<iostream>
+	<ctime>
+	<cstring>
+	"include/Menu.h"
+	"include/rlutil.h"
+	"include/admin.h"
+
+1622516806 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main\include\menu.h
+	"rlutil.h"
+	"Persona.h"
+	"Cliente.h"
+	"admin.h"
+	<cstdlib>
+	<cstdio>
+
+1620962906 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main\include\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1622516634 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main\include\persona.h
+	"Fecha.h"
+
+1621912656 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main\include\fecha.h
+
+1620962906 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main\include\cliente.h
+	"Persona.h"
+
+1620962906 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main\src\cancha.cpp
+	"Cancha.h"
+
+1620962906 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main\include\cancha.h
+
+1620962906 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main\src\cliente.cpp
+	<iostream>
+	"Cliente.h"
+	<cstdlib>
+	<cstdio>
+	<cstring>
+
+1622514973 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main\src\fecha.cpp
+	<iostream>
+	"../include/Fecha.h"
+
+1622516790 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main\src\persona.cpp
+	<iostream>
+	"../include/Persona.h"
+	"../include/Validar.h"
+	"../include/admin.h"
+	<cstdio>
+
+1620962906 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main\include\validar.h
+	"Persona.h"
+	<cstring>
+	<ctime>
+
+1622516176 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main\src\admin.cpp
+	"admin.h"
+	"Persona.h"
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<cstdlib>
+
+1622515763 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main\include\admin.h
+	"Persona.h"
+
+1623113893 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\main.cpp
+	<iostream>
+	<ctime>
+	<cstring>
+	"include/Menu.h"
+	"include/rlutil.h"
+	"include/usuario.h"
+
+1623118646 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\include\menu.h
+	"rlutil.h"
+	"Persona.h"
+	"usuario.h"
+	"Funciones.h"
+	<stdio.h>
+	<cstdlib>
+	<cstdio>
+
+1620962906 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\include\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1623024640 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\include\persona.h
+	"Fecha.h"
+
+1621912656 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\include\fecha.h
+
+1620962906 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\include\cliente.h
+	"Persona.h"
+
+1622515763 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\include\admin.h
+	"Persona.h"
+
+1622759201 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\src\admin.cpp
+	"admin.h"
+	"Persona.h"
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<cstdlib>
+
+1620962906 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\src\cancha.cpp
+	"Cancha.h"
+
+1620962906 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\include\cancha.h
+
+1620962906 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\src\cliente.cpp
+	<iostream>
+	"Cliente.h"
+	<cstdlib>
+	<cstdio>
+	<cstring>
+
+1622514973 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\src\fecha.cpp
+	<iostream>
+	"../include/Fecha.h"
+
+1623115205 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\src\persona.cpp
+	<iostream>
+	"../include/Persona.h"
+	"../include/Validar.h"
+	"../include/usuario.h"
+	<cstdio>
+
+1620962906 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\include\validar.h
+	"Persona.h"
+	<cstring>
+	<ctime>
+
+1623115649 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\include\usuario.h
+	"persona.h"
+
+1623118940 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\src\usuario.cpp
+	"usuario.h"
+	"Persona.h"
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<cstdlib>
+
+1623117845 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\include\funciones.h
+	<stdio.h>
+	<cstdlib>
+	<iostream>
+	"Funciones.h"
+	"usuario.h"
+
+1623119962 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\src\reserva.cpp
+	<cstdlib>
+	<iostream>
+	<stdio.h>
+	"Fecha.h"
+	"reserva.h"
+
+1623120712 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha-main(prototipo)\include\reserva.h
+	"Fecha.h"
+
+1625165870 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha\main.cpp
+	<iostream>
+	<ctime>
+	<cstring>
+	"include/Cancha.h"
+	"include/Menu.h"
+	"include/rlutil.h"
+	"include/usuario.h"
+
+1625165791 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha\include\menu.h
+	"usuario.h"
+
+1620962906 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha\include\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1624415941 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha\include\persona.h
+	"Fecha.h"
+	"funciones.h"
+
+1621912656 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha\include\fecha.h
+
+1625170037 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha\include\usuario.h
+	"persona.h"
+
+1625166256 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha\include\funciones.h
+
+1625172020 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha\src\cancha.cpp
+	<iostream>
+	<cstdlib>
+	<stdio.h>
+	<cstring>
+	"Menu.h"
+	"Funciones.h"
+	"Cancha.h"
+	"rlutil.h"
+
+1625171395 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha\include\cancha.h
+	"Fecha.h"
+	"Funciones.h"
+
+1622514973 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha\src\fecha.cpp
+	<iostream>
+	"../include/Fecha.h"
+
+1624415941 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha\src\persona.cpp
+	<iostream>
+	"../include/funciones.h"
+	"../include/Persona.h"
+	"../include/Validar.h"
+	"../include/usuario.h"
+	<cstdio>
+
+1620962906 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha\include\validar.h
+	"Persona.h"
+	<cstring>
+	<ctime>
+
+1625169083 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha\src\reserva.cpp
+	<cstdlib>
+	<iostream>
+	<stdio.h>
+	<cstring>
+	"Cancha.h"
+	"Fecha.h"
+	"reserva.h"
+	"Funciones.h"
+	"Persona.h"
+
+1625157345 c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha\include\reserva.h
+	"Fecha.h"
+	"Cancha.h"
+	"Funciones.h"
+	"Persona.h"
+
+1625170114 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha\src\usuario.cpp
+	"usuario.h"
+	"Persona.h"
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<cstdlib>
+	"rlutil.h"
+
+1625166256 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha\src\funciones.cpp
+	<stdio.h>
+	<cstdlib>
+	<iostream>
+	<cstring>
+	"Funciones.h"
+	"usuario.h"
+	"Cancha.h"
+	"reserva.h"
+	"rlutil.h"
+
+1625171422 source:c:\users\paul\desktop\reserva de cancha\reservadecancha-codeblocks\tp_reservatucancha\src\menu.cpp
+	<stdio.h>
+	<cstdlib>
+	<cstdio>
+	"Cancha.h"
+	"rlutil.h"
+	"Persona.h"
+	"usuario.h"
+	"Funciones.h"
+	"Menu.h"
+	"reserva.h"
+
+1625165870 source:c:\users\54115\downloads\tp_reservatucancha\main.cpp
+	<iostream>
+	<ctime>
+	<cstring>
+	"include/Cancha.h"
+	"include/Menu.h"
+	"include/rlutil.h"
+	"include/usuario.h"
+
+1625171395 c:\users\54115\downloads\tp_reservatucancha\include\cancha.h
+	"Fecha.h"
+	"Funciones.h"
+
+1621912656 c:\users\54115\downloads\tp_reservatucancha\include\fecha.h
+
+1626572520 c:\users\54115\downloads\tp_reservatucancha\include\funciones.h
+
+1625165791 c:\users\54115\downloads\tp_reservatucancha\include\menu.h
+	"usuario.h"
+
+1626573707 c:\users\54115\downloads\tp_reservatucancha\include\usuario.h
+	"persona.h"
+
+1626573707 c:\users\54115\downloads\tp_reservatucancha\include\persona.h
+	"Fecha.h"
+	"funciones.h"
+
+1620962906 c:\users\54115\downloads\tp_reservatucancha\include\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1626572520 source:c:\users\54115\downloads\tp_reservatucancha\src\cancha.cpp
+	<iostream>
+	<cstdlib>
+	<stdio.h>
+	<cstring>
+	"Menu.h"
+	"Funciones.h"
+	"Cancha.h"
+	"rlutil.h"
+
+1622514973 source:c:\users\54115\downloads\tp_reservatucancha\src\fecha.cpp
+	<iostream>
+	"../include/Fecha.h"
+
+1626573707 source:c:\users\54115\downloads\tp_reservatucancha\src\funciones.cpp
+	<stdio.h>
+	<cstdlib>
+	<iostream>
+	<cstring>
+	"Funciones.h"
+	"usuario.h"
+	"Cancha.h"
+	"reserva.h"
+	"rlutil.h"
+
+1625157345 c:\users\54115\downloads\tp_reservatucancha\include\reserva.h
+	"Fecha.h"
+	"Cancha.h"
+	"Funciones.h"
+	"Persona.h"
+
+1626667082 source:c:\users\54115\downloads\tp_reservatucancha\src\menu.cpp
+	<stdio.h>
+	<cstdlib>
+	<cstdio>
+	"Cancha.h"
+	"rlutil.h"
+	"Persona.h"
+	"usuario.h"
+	"Funciones.h"
+	"Menu.h"
+	"reserva.h"
+
+1626572990 source:c:\users\54115\downloads\tp_reservatucancha\src\persona.cpp
+	<iostream>
+	"../include/funciones.h"
+	"../include/Persona.h"
+	"../include/Validar.h"
+	"../include/usuario.h"
+	<cstdio>
+
+1620962906 c:\users\54115\downloads\tp_reservatucancha\include\validar.h
+	"Persona.h"
+	<cstring>
+	<ctime>
+
+1625169083 source:c:\users\54115\downloads\tp_reservatucancha\src\reserva.cpp
+	<cstdlib>
+	<iostream>
+	<stdio.h>
+	<cstring>
+	"Cancha.h"
+	"Fecha.h"
+	"reserva.h"
+	"Funciones.h"
+	"Persona.h"
+
+1625170114 source:c:\users\54115\downloads\tp_reservatucancha\src\usuario.cpp
+	"usuario.h"
+	"Persona.h"
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<cstdlib>
+	"rlutil.h"
+
+1625165870 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\tp_reservatucancha\main.cpp
+	<iostream>
+	<ctime>
+	<cstring>
+	"include/Cancha.h"
+	"include/Menu.h"
+	"include/rlutil.h"
+	"include/usuario.h"
+
+1626985576 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\tp_reservatucancha\include\cancha.h
+	"Fecha.h"
+	"Funciones.h"
+
+1621912656 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\tp_reservatucancha\include\fecha.h
+
+1626808090 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\tp_reservatucancha\include\funciones.h
+
+1625165791 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\tp_reservatucancha\include\menu.h
+	"usuario.h"
+
+1626573707 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\tp_reservatucancha\include\usuario.h
+	"persona.h"
+
+1626808042 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\tp_reservatucancha\include\persona.h
+	"Fecha.h"
+	"funciones.h"
+
+1620962906 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\tp_reservatucancha\include\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1626808392 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\tp_reservatucancha\src\cancha.cpp
+	<iostream>
+	<cstdlib>
+	<stdio.h>
+	<cstring>
+	"Menu.h"
+	"Funciones.h"
+	"Cancha.h"
+	"rlutil.h"
+
+1622514973 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\tp_reservatucancha\src\fecha.cpp
+	<iostream>
+	"../include/Fecha.h"
+
+1626988223 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\tp_reservatucancha\src\funciones.cpp
+	<stdio.h>
+	<cstdlib>
+	<iostream>
+	<cstring>
+	"Funciones.h"
+	"usuario.h"
+	"Cancha.h"
+	"reserva.h"
+	"rlutil.h"
+
+1626807640 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\tp_reservatucancha\include\reserva.h
+	"Fecha.h"
+	"Cancha.h"
+	"Funciones.h"
+	"Persona.h"
+
+1626990053 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\tp_reservatucancha\src\persona.cpp
+	<iostream>
+	"../include/funciones.h"
+	"../include/Persona.h"
+	"../include/Validar.h"
+	"../include/usuario.h"
+	<cstdio>
+
+1626924067 c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\tp_reservatucancha\include\validar.h
+	"Persona.h"
+	<cstring>
+	<ctime>
+	"usuario.h"
+	<cstdio>
+
+1626991160 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\tp_reservatucancha\src\reserva.cpp
+	<cstdlib>
+	<iostream>
+	<stdio.h>
+	<cstring>
+	"Cancha.h"
+	"Fecha.h"
+	"reserva.h"
+	"Funciones.h"
+	"Persona.h"
+
+1626808392 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\tp_reservatucancha\src\usuario.cpp
+	"usuario.h"
+	"Persona.h"
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<cstdlib>
+	"rlutil.h"
+
+1626991504 source:c:\users\54115\documents\materias de programacion\2021\laboratorio de computacion ii\tp_reservatucancha\src\menu.cpp
+	<stdio.h>
+	<cstdlib>
+	<cstdio>
+	"Cancha.h"
+	"rlutil.h"
+	"Persona.h"
+	"usuario.h"
+	"Funciones.h"
+	"Menu.h"
+	"reserva.h"
+

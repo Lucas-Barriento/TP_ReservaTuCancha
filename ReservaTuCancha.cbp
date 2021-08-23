@@ -35,17 +35,21 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Cancha.h" />
-		<Unit filename="include/Cliente.h" />
 		<Unit filename="include/Fecha.h" />
 		<Unit filename="include/Funciones.h" />
 		<Unit filename="include/Menu.h" />
 		<Unit filename="include/Persona.h" />
 		<Unit filename="include/Validar.h" />
+		<Unit filename="include/reserva.h" />
+		<Unit filename="include/usuario.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Cancha.cpp" />
-		<Unit filename="src/Cliente.cpp" />
 		<Unit filename="src/Fecha.cpp" />
+		<Unit filename="src/Funciones.cpp" />
+		<Unit filename="src/Menu.cpp" />
 		<Unit filename="src/Persona.cpp" />
+		<Unit filename="src/reserva.cpp" />
+		<Unit filename="src/usuario.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
